@@ -48,10 +48,31 @@ section {
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
+section h1 {
+	font-size: 150%;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+	margin: 0;
+}
+section article {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-top: solid 2px #800000;
+	border-bottom: solid 2px #800000;
+}
+section article img {
+	float: right;
+	margin: 1px 1px 2em 1.5em;
+	border: solid 1px black;
+}
 section h2 {
 	font-size: 130%;
 	color: #800000;
-	padding-top: 0.5em;
+	padding-top: 0em;
+	padding-bottom: 0.25em;
+}
+section article h3 {
+	font-size: 105%;
 	padding-bottom: 0.25em;
 }
 section p {
